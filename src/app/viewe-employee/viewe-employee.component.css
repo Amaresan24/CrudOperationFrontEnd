@@ -1,0 +1,55 @@
+/* Styles for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  /* Table header styling */
+  thead {
+    background-color: #6a0dad; /* Deep purple */
+    color: white;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #d3d3d3; /* Light grey for borders */
+  }
+  
+  /* Table body styling */
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light grey for even rows */
+  }
+  
+  tbody tr:nth-child(odd) {
+    background-color: #e6e6fa; /* Light purple for odd rows */
+  }
+  
+  tbody tr:hover {
+    background-color: #d8bfd8; /* Light purple for hover effect */
+  }
+  
+  /* Additional styling for the table */
+  table th {
+    font-weight: bold;
+  }
+  
+  table td {
+    color: #4b0082; /* Indigo color for text */
+  }
+  
+  button {
+    background-color: #4b0082; /* Purple */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Add a hover effect for the button */
+button:hover {
+    background-color: #800080; /* Darker Purple */
+}

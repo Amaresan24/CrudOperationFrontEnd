@@ -1,0 +1,72 @@
+/* Styles for the table container */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+  }
+  
+  /* Styles for table headers */
+  th {
+    background-color: #6a0dad; /* Dark purple */
+    color: white;
+    padding: 12px 15px;
+    border-bottom: 2px solid #ddd;
+    text-transform: uppercase;
+  }
+  
+  /* Styles for table rows */
+  td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Hover effect for table rows */
+  tr:hover {
+    background-color: #dcdcdc; /* Light grey */
+  }
+  
+  /* Styles for buttons */
+  button {
+    background-color: #6a0dad; /* Dark purple */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for buttons */
+  button:hover {
+    background-color: #5b0a95; /* Slightly darker purple */
+  }
+  
+  /* Specific styles for the delete button */
+  button:last-child {
+    background-color: #808080; /* Grey */
+  }
+  
+  button:last-child:hover {
+    background-color: #696969; /* Darker grey */
+  }
+  
+  /* Responsive table */
+  @media screen and (max-width: 600px) {
+    table {
+      font-size: 16px;
+    }
+  
+    th, td {
+      padding: 10px;
+    }
+  
+    button {
+      padding: 8px 16px;
+      font-size: 14px;
+    }
+  }
+  

@@ -1,0 +1,42 @@
+/* Set the background color for the entire form */
+form {
+    background-color: #f0f0f5; /* Light grey */
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+/* Style the labels */
+label {
+    color: #4b0082; /* Purple */
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+/* Style the input fields */
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 2px solid #cccccc; /* Grey */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Style the button */
+button {
+    background-color: #4b0082; /* Purple */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Add a hover effect for the button */
+button:hover {
+    background-color: #800080; /* Darker Purple */
+}

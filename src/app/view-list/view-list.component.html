@@ -1,0 +1,25 @@
+<h1>Employee Full Details</h1>
+<button (click)="create()"> Create </button>
+<table>
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Name</th>
+      <th>Gender</th>
+      <th>OPtions</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr *ngFor="let em of emps">
+      <td>{{ em.id }}</td>
+      <td>{{ em.name }}</td>
+      <td>{{ em.gender }}</td>
+      <td>
+        <button (click)="view(em.id)">View</button>
+        <button (click)="update(em.id)">Update</button>
+        <button (click)="deleteEmp(em.id)">Delete</button>
+      </td>
+    </tr>
+  </tbody>
+</table>

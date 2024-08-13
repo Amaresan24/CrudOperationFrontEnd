@@ -1,0 +1,12 @@
+<p>update-employee works!</p>
+<label>id </label>
+<input type = "number" [(ngModel)]="emp.id" disabled>
+<br>
+<label>Update Name</label>
+<input type ="text" [(ngModel)] = "emp.name" >
+<br>
+<label>Update Gender</label>
+<input type = "text" [(ngModel)] ="emp.gender">
+
+<button (click)="submit()">Update</button>
+<button (click)="back()">back</button>
